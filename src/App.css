@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+input[type="text"] {
+  padding: 12px 20px;
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkorange;
+}
+
+.recipe-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.recipe-card {
+  width: 300px;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  overflow: hidden;
+  background-color: white;
+  transition: transform 0.2s ease;
+}
+
+.recipe-card:hover {
+  transform: scale(1.03);
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #eee;
+}
+
+.recipe-card h3 {
+  padding: 10px;
+}
+
+.recipe-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
